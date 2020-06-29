@@ -1,0 +1,25 @@
+.header{
+    height: 27px;
+    padding: 19px 0;
+    border-bottom: 1px solid #b5b5b5;
+}
+
+.header-search {
+    position: relative;
+}
+
+.header-search input{
+    padding-left: 10px;
+    width: 300px;
+	height: 26px;
+	background-color: #eeeeee;
+	border-radius: 5px;
+}
+.search-icon{
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    right: 10px;
+    top: 3px;
+    background: url('../images/searchlogo.png') no-repeat;
+}
