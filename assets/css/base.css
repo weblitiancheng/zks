@@ -14,6 +14,10 @@ h1,h2,h3.h4,h5,h6{
      border:0;
      vertical-align: middle;
  }
+ img{
+     vertical-align: middle;
+     border: 0;
+ }
  a{
      text-decoration: none;
      color:#333a4f;
@@ -32,8 +36,8 @@ h1,h2,h3.h4,h5,h6{
  }
  body{
      line-height: 1;
-     font: 15px '微软雅黑';
-     /* background-color: pink; */
+     font: 15px AlibabaPuHuiTiR;
+     background-color: #edeef3;
  }
 .fl{
     float: left;

@@ -1,0 +1,100 @@
+.article-bread{
+    width: 1080px;
+}
+.article-banner{
+    margin-bottom: 8px;
+    height: 200px;
+    background:#09161a url('../../uploads/banner3.png') no-repeat center ;
+}
+.article-content{
+    margin-bottom: 10px;
+}
+
+.article-content-top{
+    width: 820px;
+    padding-left: 20px;
+   
+    line-height: 27px;
+    margin-bottom: 10px;
+    background: #fff;
+}
+.article-content-fl h5{
+	font-family: AlibabaPuHuiTiM;
+	font-size: 20px;
+	line-height: 14px;
+    padding: 20px 0 27px;
+    
+    color: #333333;
+    
+}
+.article-content-fl .time{
+    margin: 0 15px 0 11px;
+}
+.article-content-fl .line{
+    display: inline-block;
+    margin-right: 15px;
+    width: 1px;
+    height: 14px;
+    background: #bdbdbd;
+    vertical-align: -1px;
+}
+.article-content-fl .showCount{
+    color: #bdbdbd;
+    padding-left: 30px;
+    background: url('../../assets/images/eye.png') left /20px 10px no-repeat;
+   
+}
+.pointwarp{
+    margin-right: 18px;
+}
+#pointtrue {
+    vertical-align: top;
+}
+#point-warp>span{
+    display: inline-block;
+    width: 76px;
+	height: 25px;
+	background-color: #ffffff;
+	border-radius: 13px;
+    border: solid 1px #d2d2d2;
+    text-align: center;
+    line-height: 25px;
+   
+}
+.article-content-fl h6{	
+	font-size: 16px;
+    padding: 30px 0 35px 0 ;
+    font-weight: 700;
+	color: #333333;
+}
+.instructions p{
+    line-height: 20px;
+    /* 针对英文单词强制换行 */
+    word-break:break-all;
+}
+.instructions-content{
+    margin-right: 30px;
+}
+.warm-prompt{
+    height: 50px;
+    font:700 12px/50px AlibabaPuHuiTiR;
+    text-align: center;
+    background: #fff;
+	color: #5e5e5e;
+}
+/* 广告部分 */
+.adList{
+    width: 230px;
+    height: 721px;
+    padding: 5px 10px 0;
+	background-color: #fff;
+}
+.adList li:first-child{
+    padding-top: 6px;
+}
+.adList li{
+    padding-bottom: 5px;
+}
+.adList li a{
+    display: block;
+}

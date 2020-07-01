@@ -1,0 +1,27 @@
+注意： 点击左侧导航 跳转的页面 有  面包屑导航 + 二次分类
+           点击头部导航下拉菜单的选项  跳转的页面 有 面包屑导航 没有二次分类
+
+****先点击左侧导航跳转的页面***
+ 1.首页 			src/index/index.html
+ 2.点击左侧 操作系统 		src/index/index.html   ->   src/topic/ c_1.htmll    
+
+
+						操作系统 		 src/topic/ c_1.html  
+						bios设置  		 src/topic/ c_2.html  	
+						安装视频		 src/topic/ c_3.html			
+						驱动程序		 src/topic/ c_4.html
+						网络故障		 src/topic/ c_5.html
+						显示故障		 src/topic/ c_6.html
+						第三方软件	 src/topic/ c_7.html
+						游戏影音		 src/topic/ c_8.html
+						显示设置		 src/topic/ c_9.html
+						一键恢复		 src/topic/ c_10.html
+						设备应用		 src/topic/ c_11.html
+
+
+3.点击文章标题          src/topic/ c_1.htmll   -->    src/detail/dc_187593.html  最后已经到了文章中详情页了
+
+
+ ***首页中点击下拉导航中 选项****
+ 1.首页 			src/index/index.html   -> src/list/p_1.html	  比如 显示器下拉框点击HR272	
+2 点击文章			src/list/p_1.html	-> src/detail/dc_1111 

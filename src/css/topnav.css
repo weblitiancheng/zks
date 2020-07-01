@@ -1,0 +1,110 @@
+
+/* 
+    头部的logo和搜索样式
+    头部的导航栏样式
+*/
+
+.top-nav{
+    background: #fff;
+}
+/* 头部样式 */
+
+.header{
+    height: 27px;
+    padding: 19px 0;
+    border-bottom: 1px solid #b5b5b5;
+    background-color: #fff;
+}
+
+.header-search {
+    position: relative;
+}
+
+.header-search input{
+    padding-left: 10px;
+    width: 300px;
+	height: 26px;
+	background-color: #eeeeee;
+	border-radius: 5px;
+}
+.search-icon{
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    right: 10px;
+    top: 3px;
+    background: url('../../assets/images/searchlogo.png') no-repeat;
+}
+/* 头部导航栏样式 */
+.tab-card{
+    background: #fff;
+}
+.tab-title>li{
+    float: left;
+    position: relative;
+    text-align: center;
+    border-top: 3px solid transparent;
+    width: 155px;   
+    height: 40px;
+    line-height: 40px;
+    z-index: 2;
+}
+.tab-title .line{
+    width: 2px;
+    height: 14px;
+    margin-top: 16px;
+    background-color: #ccc;
+}
+.tab-title >li >a{
+    display: block;
+    
+   
+    
+}
+.tab-title .tab-item{
+    position: absolute;
+    width: 1100px;
+    font-weight: 400;
+    text-align: left;
+    padding-top: 24px;
+    z-index: 10;
+    /* background: skyblue; */
+    background:#fff;
+}
+.tab-title .hidden{
+    display: none;
+}
+.tab-active{
+    border-top-color: #707070 !important;
+    font-weight: 700;
+}
+.tab-item-title,
+.tab-item-name{
+    font-size: 16px;
+   
+}
+.tab-item>li{
+    font-size: 0;
+}
+.tab-item-title{
+    display: inline-block;
+	font-size: 16px;
+    color: #a0a0a0;
+    /* padding: 0 100px 0 60px; */
+    width: 160px;
+    text-align: center;
+}
+.tab-item a{
+    display: inline-block;
+    width: 160px;
+    text-align: center;
+}
+.tab-item-name{
+  
+    font-family: AlibabaPuHuiTiR;
+    font-weight: 400;
+ 
+    color: #535353;
+    
+}
+

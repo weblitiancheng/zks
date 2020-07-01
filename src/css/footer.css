@@ -1,0 +1,41 @@
+/* 
+
+    footer的样式 
+    
+*/
+
+.footer {
+    height: 160px;
+    background-color: #333;
+}
+.footer-top{
+    padding-top: 30px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #9f9f9f;
+}
+.footer-logo a{
+    display: block;
+    height: 20px;
+    width: 121px;
+    background: url('../../assets/images/footer-logo.png') no-repeat center;
+}
+.footer-share  a{
+    display: block;
+    height: 20px;
+    width: 117px;
+    background: url('../../assets/images/share.png') no-repeat center;
+}
+.footer-bottom{
+    padding-top: 10px;
+}
+.footer-bottom p{
+    width: 427px;
+	height: 27px;
+	font-family: MicrosoftYaHei;
+	font-size: 10px;
+	font-weight: normal;
+	font-stretch: normal;
+	line-height: 16px;
+	letter-spacing: 0px;
+	color: #666666; 
+}

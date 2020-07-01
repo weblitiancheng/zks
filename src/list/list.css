@@ -1,0 +1,15 @@
+
+/* 修改和覆盖list-content.css里面的样式 */
+.topWrapper{
+    margin-bottom: 60px;
+}
+.adList{
+    margin-top: 10px;
+}
+.second-banner {
+    padding-bottom: 10px;
+}
+.second-banner a{
+    display: block;
+    background: #000;
+}
