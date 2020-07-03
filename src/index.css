@@ -1,0 +1,104 @@
+.main-content {
+    height: 435px;
+    position: relative;
+    overflow: hidden;
+    /* background: url('../../uploads/banner1.png') no-repeat */
+}
+
+
+
+
+
+
+.sideNav {
+    position: absolute;
+    top: 20px;
+    width: 210px;
+    height: 380px;
+    background: #fff;
+    /* overflow-y: scroll; */
+    overflow-x: hidden;
+    overflow-y: auto;
+
+
+    z-index: 2;
+   
+}
+
+
+
+/* 滚动条样式 */
+.sideNav::-webkit-scrollbar {
+    width: 4px;
+
+}
+
+.sideNav::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.sideNav::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+    border-radius: 0;
+    background: rgba(0, 0, 0, 0.1);
+
+}
+/* 滚动条样式结束 */
+
+.sideNav_more {
+    position: absolute;
+    width: 210px;
+    height: 20px;
+    left: 0;
+    bottom: 15px;
+    background-color: #dcdcdc;
+    box-shadow: 0px 3px 8px 0px rgba(0, 0, 0, 0.15);
+    z-index: 3;
+    text-align: center;
+   
+}
+
+/* 滚动条消失 */
+/* .noneBar::-webkit-scrollbar {
+    width: 0 !important
+} */
+
+
+.sideNav li:not(:last-child) {
+    border-bottom: 1px solid #eee;
+
+}
+
+.sideNav li {
+    width: 210px;
+    height: 75px;
+    line-height: 76px;
+    text-align: center;
+}
+
+
+.sideNav li a {
+    display: block;
+
+
+}
+
+.sideNav_active {
+    background: #333a4f;
+
+}
+
+.sideNav_active a {
+    color: #fff;
+}
+.banner_img img {
+    height: 380px
+}
+
+.list-content {
+    /* padding-top: 20px; */
+
+    background-color: #edeef3;
+}

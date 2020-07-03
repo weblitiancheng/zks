@@ -5,12 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../../assets/css/base.css">
-    <link rel="stylesheet" href="../css/topnav.css">
-    <link rel="stylesheet" href="../css/footer.css">
-    <link rel="stylesheet" href="../css/breadcrumb.css">
+    <link rel="stylesheet" href="../../assets/css/util.css">
+    <link rel="stylesheet" href="../../assets/lib/jquery.jcarousel/jcarousel.basic.css">
     <link rel="stylesheet" href="./article.css">
 
-    <script src="../../assets/lib/jquery/jquery.js"></script>
+  
     <title>Document</title>
 </head>
 <body>
@@ -320,46 +319,16 @@
             </div>
         </div>
     </div>
+    <script src="../../assets/lib/jquery/jquery.js"></script>
+    <script src="../../assets/lib/jquery.jcarousel/jquery.jcarousel.min.js"></script>
+    <script src="../../assets/js/util.js"></script>
     <script>
-        // 判断p的高度时候超过一行的高度，及行高20px，超过的话，将行高改成30px
-             // 获取奇数项p标签,获取p标签的行高
-        var
-            p_s = $('.instructions-content p:nth-child(odd)'),
-            plh = parseInt($('.instructions-content p').css('line-height'))
-        $.each(p_s, function (i, item) {
-            $(item).height() > plh ? $(this).css('line-height', '30px') : plh
-        });
-
-        // 实现tab切换
-        var
-            tab_lis = $('.tab-title > li:even'),
-            tab_drop_lis = $($('.tab-title> li:even').splice(1)),
-            tab_items = $('.tab-item')
-            tab_line_width = $('.tab-card .line').width()
-            tab_lis_width = tab_lis.width()
-        tab_lis.mouseover(function () {
-            $(this)
-                .addClass('tab-active')
-                .siblings()
-                .removeClass('tab-active')
-        })
-        tab_drop_lis.mouseover(function () {
-            var index = $(this).index() / 2 - 1
-            $(tab_items[index])
-                .show()
-                .css({
-                    left: -(index + 1) * (tab_lis_width + tab_line_width) + 'px'
-                })
-                .parent()
-                .siblings()
-                .find('.tab-item')
-                .hide()
-        })
-        tab_drop_lis.mouseout(function () {
-            $(this)
-                .find('.tab-item')
-                .hide()
-        })
+        
+    // 实现下拉菜单
+    Util.topDrop()
+    // 判断p的高度时候超过一行的高度，超过的话，将行高改成30px          
+    Util.changePLH(30)
+    
     </script>
 </body>
 </html>

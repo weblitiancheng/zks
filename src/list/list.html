@@ -5,10 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../../assets/css/base.css">
-    <link rel="stylesheet" href="../css/topnav.css">
-    <link rel="stylesheet" href="../css/footer.css">
-    <link rel="stylesheet" href="../css/list-content.css">
-    <link rel="stylesheet" href="../css/breadcrumb.css">
+    <link rel="stylesheet" href="../../assets/css/util.css">
     <link rel="stylesheet" href="./list.css">
     <script src="../../assets/lib/jquery/jquery.js"></script>
     <title>Document</title>
@@ -306,39 +303,12 @@
             </div>
         </div>
     </div>
+    <script src="../../assets/js/util.js"></script>
     <script>
-        // 实现tab切换
-        var
-            tab_lis = $('.tab-title > li:even'),
-            tab_drop_lis = $($('.tab-title> li:even').splice(1)),
-            tab_items = $('.tab-item')
-        tab_line_width = $('.tab-card .line').width()
-        tab_lis_width = tab_lis.width()
-
-        tab_lis.mouseover(function () {
-            $(this)
-                .addClass('tab-active')
-                .siblings()
-                .removeClass('tab-active')
-        })
-        tab_drop_lis.mouseover(function () {
-            var index = $(this).index() / 2 - 1
-            $(tab_items[index])
-                .show()
-                .css({
-                    left: -(index + 1) * (tab_lis_width + tab_line_width) + 'px'
-                })
-                .parent()
-                .siblings()
-                .find('.tab-item')
-                .hide()
-        })
-        tab_drop_lis.mouseout(function () {
-            $(this)
-                .find('.tab-item')
-                .hide()
-        })
+        // 实现下拉菜单
+        Util.topDrop()
     </script>
+  
 </body>
 
 </html>

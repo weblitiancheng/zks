@@ -1,0 +1,34 @@
+.top-nav{
+    margin-bottom: 20px;
+    
+}
+.allFristTypeWrapper {
+    margin-bottom: 20px;
+    padding: 20px;
+    width: 1060px;
+    background: #fff;
+}
+.allFristType
+{
+    margin-bottom: 12px;
+}
+.allFristTypeWrapper .type
+{
+    display: inline-block;
+    padding: 0 6px;
+    border-bottom: 3px solid #3f84c6;
+    
+    color: #3a3a3a;
+}
+#productionName{
+    color: #3f84c6;
+}
+.typeContent {
+    padding: 0 10px;
+    line-height: 38px;
+    background: #f7f7f7;
+}
+.typeContent li{
+    float: left;
+    margin-right: 20px;
+}
