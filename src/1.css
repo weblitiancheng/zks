@@ -1,0 +1,60 @@
+/* 
+    footer的样式 
+*/
+
+.footer {
+        height: 160px;
+        background-color: #333;
+    }
+    
+    .footer-top {
+        padding-top: 30px;
+        padding-bottom: 10px;
+        border-bottom: 1px solid #9f9f9f;
+    }
+    .footer-logo a {
+        display: block;
+        height: 21px;
+        width: 116px;
+        background:url('../images/footer-logo.png') no-repeat;
+    }
+    .footer-share span  a{
+        display: inline-block;
+        margin-right: 10px;
+        width: 21px;
+        height: 19px;
+    
+    }
+    
+    
+    .footer-share .wx{
+        background: url('../images/share.png') no-repeat ;
+    }
+    .footer-share .weibo{
+        background: url('../images/share.png') no-repeat -33px 0;
+    }
+    .footer-share .tieba{
+        width: 18px;
+        background: url('../images/share.png') no-repeat -69px 0;
+    }
+    
+    
+    .footer-bottom {
+        padding-top: 10px;
+    }
+    
+    .footer-bottom p {
+        width: 427px;
+        height: 27px;
+        font-family: MicrosoftYaHei;
+        font-size: 10px;
+        font-weight: normal;
+        font-stretch: normal;
+        line-height: 16px;
+        letter-spacing: 0px;
+        color: #666666;
+    }
+    
+    /* 
+        footer样式结束
+    */
