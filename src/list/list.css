@@ -1,4 +1,29 @@
 
+.topWrapper {
+    width: 840px;
+    /* width: 740px; */
+}
+
+.topList {
+
+    width: 840px;
+    /* width: 740px; */
+
+
+}
+.adList{
+    width: 250px;
+   
+    text-align: center;
+}
+.adList li {
+    padding: 5px 0;
+    background: #fff;
+}
+.adList li a img{
+    width: 239px;
+    height: 239px;
+}
 /* 修改和覆盖list-content.css里面的样式 */
 .topWrapper{
     margin-bottom: 60px;

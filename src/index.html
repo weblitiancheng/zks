@@ -317,7 +317,7 @@
                     </div>
                 </div>
                 <div class="readyMore topList">
-                    <a href="./list/list.html">查看更多</a>
+                    <a href="javascript:;">查看更多</a>
                 </div>
             </div>
             <div class="fr adList" id='adList'>
@@ -338,12 +338,6 @@
                 <div class="footer-logo fl">
                     <a href="./list/list.html"></a>
                 </div>
-                <!--  <div class="footer-share fr">
-                            <span class="wx"><a href="#"></a></span>
-                            <span class="weibo"><a href="#" target="_blank"></a>
-                            </span>
-                            <span class="tieba"><a href="#" target="_blank"></a></span>
-                </div> -->
                 <div class="footer-share fr">
                     <span class="wx"><a href="#" target="_blank"></a></span>
                     <span class="weibo"><a href="https://weibo.com/p/1006061747265162/home?from=page_100606&amp;mod=TAB&amp;is_all=1&amp;sudaref=www.baidu.com&amp;display=0&amp;retcode=6102" target="_blank"></a></span>
@@ -370,7 +364,7 @@
         Util.topDrop()
         // 实现轮播图
         Util.bannerRolling()
-
+        // 侧边栏功能
         var 
             sideNavOuterHeight = $('.sideNav').outerHeight(),
             ul = $('.sideNav ul'),
@@ -378,6 +372,7 @@
             lisHeight = $('.sideNav li').outerHeight(),
             side = $('.sideNav')
             sideNav_more = $('.sideNav_more')
+    
 
         // 在ul上滚动
         side.scroll(function () {
@@ -386,38 +381,44 @@
             // 最大的滚动个数
             var max = lis.length - sideNavOuterHeight / lisHeight
             console.log(index)
+            
             if(index==0){
                 Util.siblingsToggleClass($(lis[index]), 'sideNav_active')
+                $(this).scrollTop = (index*lisHeight)
             }else if(index==1){
                 Util.siblingsToggleClass($(lis[index]), 'sideNav_active')
-               
+                $(this).scrollTop = (index*lisHeight)
             }
             else if(index==2){
                 Util.siblingsToggleClass($(lis[index]), 'sideNav_active')
+                $(this).scrollTop = (index*lisHeight)
             }
             else if(index==3){
-                Util.siblingsToggleClass($(lis[index]), 'sideNav_active') 
+                Util.siblingsToggleClass($(lis[index]), 'sideNav_active')
+                $(this).scrollTop = (index*lisHeight) 
             }
             else if(index==4){
                 Util.siblingsToggleClass($(lis[index]), 'sideNav_active')
+                $(this).scrollTop = (index*lisHeight)
             }
             else if(index==5){
                 Util.siblingsToggleClass($(lis[index]), 'sideNav_active')
+                $(this).scrollTop = (index*lisHeight)
             }
             else if(index==6){
                 Util.siblingsToggleClass($(lis[index]), 'sideNav_active')
+                $(this).scrollTop = (index*lisHeight)
             }
-            $(this).scrollTop(index * lisHeight)
+           
         })
+        // 点击li，对应的li添加类名
         lis.click(function () {
             $(this)
                 .addClass('sideNav_active')
                 .siblings()
                 .removeClass('sideNav_active')
-
         })
-        sideNav_more.click(function(){
-            
+        sideNav_more.click(function(){    
         // 当前卷曲的距离
         var val = side.scrollTop()
         // 点击一次就移动外层容器的高度

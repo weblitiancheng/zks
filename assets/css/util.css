@@ -146,12 +146,14 @@
 */
 
 .topWrapper {
-    width: 840px;
+    /* width: 840px; */
+    width: 740px;
 }
 
 .topList {
     float: left;
-    width: 840px;
+    /* width: 840px; */
+    width: 740px;
     height: 140px;
 
     background-color: #fff;
@@ -203,23 +205,25 @@
     font-family: AlibabaPu
 }
 
-.adList {
+/* .adList {
     width: 230px;
     height: 721px;
     padding: 5px 10px 0;
     background-color: #fff;
-}
+} */
 
-.adList li:first-child {
-    padding-top: 6px;
-}
+
 
 .adList li {
-    padding-bottom: 5px;
+    margin-bottom: 20px;
 }
 
 .adList li a {
     display: block;
+}
+.adList li a img{
+    width: 340px;
+    height: 230px;
 }
 
 /* list-content样式结束 */

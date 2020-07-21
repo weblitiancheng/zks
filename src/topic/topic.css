@@ -2,10 +2,16 @@
     margin-bottom: 20px;
     
 }
+
+/* 
+    面包屑导航开始
+
+*/
 .allFristTypeWrapper {
     margin-bottom: 20px;
     padding: 20px;
-    width: 1060px;
+    /* width: 800px; */
+    width: 700px;
     background: #fff;
 }
 .allFristType
@@ -32,3 +38,72 @@
     float: left;
     margin-right: 20px;
 }
+/* 面包屑导航结束 */
+
+/* 
+    右侧topic导航和广告开始
+*/
+.topic_ad {
+    width: 340px;
+}
+.rightBarWrapper{
+
+  background: #fff;
+  margin-bottom: 20px;
+
+}
+.barBox{
+    padding: 18px 0 20px 20px;
+    background: #fff;
+}
+
+.rightBarWrapper .box-title{
+    margin-bottom: 16px;
+    padding-left: 6px;
+    border-left: 3px solid #68aae9;
+    color: #3a3a3a;
+    font-size: 16px; 
+}
+.knowledge li{
+    float: left;
+}
+
+.knowledge li a{
+    display: inline-block;
+    height: 22px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 0 10px;
+    line-height: 22px;
+    border-radius: 12px;
+    font-size: 12px;
+    background: pink;
+    color: #fff;
+}
+.knowledge li.default a {
+    background: #3f84c6;
+}
+.knowledge li.orange a {
+    background: #eb6a1a;
+}
+.knowledge li.pink a {
+    background: #d968a3;
+}
+.knowledge li.red a {
+    background: #d4291e;
+}
+.knowledge li.blue a {
+    background: #4eb6d3;
+}
+.knowledge li.green a {
+    background: #6ab64b;
+}
+.knowledge li.gray a {
+    background: #c4beb5;
+}
+.adList{
+    text-align: center;
+}
+/* 
+    右侧topic导航和广告结束
+*/
